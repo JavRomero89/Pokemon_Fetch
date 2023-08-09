@@ -1,4 +1,7 @@
-let pokeID = prompt("Por favor ingresa el ID del Pokémon");
+
+
+let pokeID = 25;
+// prompt("Por favor ingresa el ID del Pokémon");
 
 fetch(`https://pokeapi.co/api/v2/pokemon/${pokeID}/`)
   .then(response => response.json())
